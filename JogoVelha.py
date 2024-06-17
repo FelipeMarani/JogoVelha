@@ -125,12 +125,12 @@ while True:
                 print("Número de empates: {}".format(Qpe))
                 print("Partida de número {}°".format(partida))
                 novamente = str(input("Deseja jogar novamente?(Sim ou Não): ")).upper()
-                if novamente == "SIM":
+                if novamente[0] == "S":
                     continue
-                elif novamente == "NÃO":
+                elif novamente[0] == "N":
                   Jogar = "NÃO"
                   break
     elif Jogar == "NÃO":
         print("Obrigado pela(s) partida(s), e até breve!!")
         break
-                    
+                
